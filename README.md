@@ -1,2 +1,2 @@
-# pages
-https://lmconnelly.github.io/pages/
+# index
+https://lmconnelly.github.io/index/
