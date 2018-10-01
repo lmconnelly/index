@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<style>
+/* w3schools.com-howto-howto_css_portfolio_gallery */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    word-break: break-all;
+}
+    
+h2 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #A9A9A9;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 2px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Liam Connelly</h1>
+    
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <p><h2>Teardown: Disposable Camera</h2></p>
+      <img src="Disposable_camera_web01.jpg" title="Disposable Camera Teardown" alt="Disposable Camera" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <p><h2>Teardown: Cassette Player</h2></p>
+    <img src="Cassette_web01.jpg" title="Cassette Player Teardown" alt="Cassette Player Teardown" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <p><h2>Edge blending with foamboard</h2></p>
+    <img src="Foam_Cube_web01.jpg" title="Foam Cube" alt="Foam Cube" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <p><h2>Teardown: CD Player</h2></p>
+    <img src="CD_Player_web01.jpg" title="CD Player Teardown" alt="CD Player Teardown" style="width:100%">
+    </div>
+  </div>
+<!-- END GRID -->
+  <div class="column">
+    <div class="content">
+      <p><h2>Teardown: Air Freshener</h2></p>
+      <img src="Air_Fresher_web01.jpg" title="Air Freshener Teardown" alt="Air Freshener Teardown" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <p><h2>Hinge Arrangements</h2></p>
+    <img src="Hinge_web01.jpg" title="Hinge Arrangements" alt="Hinge Arrangements" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <p><h2>Arduino Counter</h2></p>
+    <img src="arduino_counter_web01.jpg" title="Arduino Counter" alt="Arduino Counter" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <p><h2>Data Logger Thermo, Light, Load</h2></p>
+    <img src="Datalogger_web01.jpg" title="Data Logger - Thermo, Light, Load" alt="Data Logger - Thermo, Light, Load" style="width:100%">
+    </div>
+  </div>
+<!-- END GRID -->
+  <div class="column">
+    <div class="content">
+      <p><h2>X Y Robot</h2></p>
+      <img src="2axis_robot_web01.jpg" title="X Y Robot" alt="X Y Robot" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <p><h2>X Robot</h2></p>
+    <img src="X_Robot_web01.jpg" title="X Robot" alt="X Robot" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <p><h2>Involute Gears</h2></p>
+    <img src="Involute_01.jpg" title="Involute Gears" alt="Involute Gears" style="width:100%">
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <p><h2>Liquid level sensing with CAD</h2></p>
+    <img src="Liquid_sensing_web01.jpg" title="Liquid Sensing" alt="Liquid Sensing" style="width:100%">
+    </div>
+  </div>
+<!-- END GRID -->
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
